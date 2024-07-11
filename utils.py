@@ -1,5 +1,7 @@
-def div(a, b): 
-    return a/b
+def div(a, b):
+    if b > 0: 
+        return a/b
+    else:
+        return None
 
-def add(a, b):
-    return a + b
+>>>>>>> 35376f17f3f5aecf0dc96f9885e14ef0aa909703
